@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MulticriteriaClustLWeights" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MulticriteriaClustLWeights" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-std=c++11" />
+					<Add directory="/home/srmq/devel/cppworkspace/FWRDCA/src" />
+				</Compiler>
+				<Linker>
+					<Add option="/home/srmq/devel/cppworkspace/FWRDCA/Debug/libFWRDCA.a" />
+					<Add library="glpk" />
+					<Add library="armadillo" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MulticriteriaClustLWeights" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="fmm/Algoritmo.cpp" />
+		<Unit filename="fmm/Algoritmo.h" />
+		<Unit filename="fmm/Array.cpp" />
+		<Unit filename="fmm/Array.h" />
+		<Unit filename="fmm/Cluster.cpp" />
+		<Unit filename="fmm/Cluster.h" />
+		<Unit filename="fmm/Dados.cpp" />
+		<Unit filename="fmm/Dados.h" />
+		<Unit filename="fmm/Imprime.cpp" />
+		<Unit filename="fmm/Imprime.h" />
+		<Unit filename="fmm/Includes.cpp" />
+		<Unit filename="fmm/Includes.h" />
+		<Unit filename="fmm/MinCostFlow.h" />
+		<Unit filename="fmm/Repositorio.cpp" />
+		<Unit filename="fmm/Repositorio.h" />
+		<Unit filename="fmm/Resultado.cpp" />
+		<Unit filename="fmm/Resultado.h" />
+		<Unit filename="fmm/Tabela.cpp" />
+		<Unit filename="fmm/Tabela.h" />
+		<Unit filename="fmm/normalizedmetrics.h" />
+		<Unit filename="fmm/validation.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sodas/MonteCarlo.cpp" />
+		<Unit filename="sodas/MonteCarlo.h" />
+		<Unit filename="sodas/Pattern.cpp" />
+		<Unit filename="sodas/Pattern.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
