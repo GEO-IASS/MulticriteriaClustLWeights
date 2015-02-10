@@ -458,3 +458,134 @@
 	"../fmm/Includes.h"
 	"Pattern.h"
 
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Algoritmo.cpp
+	"Algoritmo.h"
+	"FuzzyIndices.h"
+	"FuzzyCluster.h"
+	"ConfusionMatrix.h"
+	<memory>
+	<vector>
+	<limits>
+	"validation.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Algoritmo.h
+	"Includes.h"
+	"Repositorio.h"
+	"Resultado.h"
+	"MinCostFlow.h"
+	"Imprime.h"
+	"FuzzyIndices.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Includes.h
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cfloat>
+	<climits>
+	<cctype>
+	<cmath>
+	<ctime>
+	<cassert>
+	<iostream>
+	<fstream>
+	<sstream>
+	<iomanip>
+	<string>
+	<algorithm>
+	<vector>
+	<deque>
+	<queue>
+	<stack>
+	<map>
+	<set>
+	<bitset>
+	<stdexcept>
+	<exception>
+	<bits/exception_defines.h>
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Repositorio.h
+	"Includes.h"
+	"Tabela.h"
+	"Array.h"
+	"Dados.h"
+
+1423579598 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Tabela.h
+	"Includes.h"
+	"Array.h"
+	"../sodas/Pattern.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Array.h
+	"Includes.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/sodas/Pattern.h
+	"../fmm/Includes.h"
+
+1423578869 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Dados.h
+	"Includes.h"
+	"Array.h"
+	"Cluster.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Cluster.h
+	"Includes.h"
+	"Array.h"
+	"Tabela.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Resultado.h
+	"Includes.h"
+	"Cluster.h"
+	"Array.h"
+	"Repositorio.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/MinCostFlow.h
+	"Includes.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Imprime.h
+	<iostream>
+	<iomanip>
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/validation.h
+	"normalizedmetrics.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/normalizedmetrics.h
+	<algorithm>
+	<cmath>
+	"Array.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Array.cpp
+	"Array.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Cluster.cpp
+	"Cluster.h"
+
+1423578968 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Dados.cpp
+	"Dados.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Imprime.cpp
+	"Imprime.h"
+	"Array.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Includes.cpp
+	"Includes.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Repositorio.cpp
+	"Repositorio.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Resultado.cpp
+	"Resultado.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/fmm/Tabela.cpp
+	"Tabela.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/sodas/MonteCarlo.cpp
+	"MonteCarlo.h"
+
+1423578098 /home/srmq/devel/Chico/MulticriteriaClustLWeights/sodas/MonteCarlo.h
+	"../fmm/Includes.h"
+	"Pattern.h"
+
+1423578098 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/sodas/Pattern.cpp
+	"Pattern.h"
+
+1423578977 source:/home/srmq/devel/Chico/MulticriteriaClustLWeights/main.cpp
+	"fmm/Algoritmo.h"
+

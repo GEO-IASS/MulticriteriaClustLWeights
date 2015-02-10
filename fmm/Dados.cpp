@@ -9,6 +9,8 @@
 
 int Dados::var_classe = 0;
 
+bool Dados::isEntradaSimples = false;
+
 Dados::Dados() {
 
 }

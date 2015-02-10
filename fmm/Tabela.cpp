@@ -6,6 +6,7 @@
  */
 
 #include "Tabela.h"
+#include "Dados.h"
 
 Tabela::Tabela(size_t n) :
 	n(n) {
@@ -57,12 +58,27 @@ Tabela::operator string() const {
 }
 
 istream& operator>>(istream &in, Tabela& t) {
-	string linha, pedaco;
-	int n;
-
 	if (!in) {
 		__throw_ios_failure("Arquivo inexistente");
 	}
+
+	if (Dados::isEntradaSimples) {
+        t.lerFormatoSimples(in, t);
+	} else {
+        t.lerFormatoSodas(in, t);
+	}
+
+    return in;
+}
+
+void Tabela::lerFormatoSimples(istream &in, Tabela& t) {
+    //FIXME todo
+
+}
+
+void Tabela::lerFormatoSodas(istream &in, Tabela& t) {
+   	string linha, pedaco;
+	int n;
 
 	// ler a quantidade de individuos
 	// ler "indiv_nb"
@@ -137,8 +153,6 @@ istream& operator>>(istream &in, Tabela& t) {
 	 t.matriz[i][j] = t.matriz[j][i] = d;
 	 }
 	 }*/
-
-	return in;
 }
 
 ostream& operator<<(ostream& out, const Tabela& t) {

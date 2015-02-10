@@ -17,6 +17,7 @@ int totalPadroes; //Número total de padrões
 int numeroInicializacoes = 60; //Número de inicializações da partição para cada conjunto
 int numeroMonteCarlo = 60; //Número de ciclos do Monte Carlo
 int numeroClassesEscolhidas = 0; //Numero de classes que foram selecionadas para a penalizacao
+
 /*************************************************************************/
 
 #include "fmm/Algoritmo.h"
@@ -67,7 +68,12 @@ void read(const char *nome) {
 			output = false;
 		} else if (s.find("(output)") != string::npos) {
 			input = false;
-			output = true;
+            output = true;
+        } else if (s.find("(entradaSimples)") != string::npos) {
+		    int entradaSimples;
+            in >> s;
+			sscanf(s.c_str(), "%d", &entradaSimples);
+			Dados::isEntradaSimples = (entradaSimples != 0);
 		} else if (input) {
 			v.push_back(s);
 		} else if (output) {

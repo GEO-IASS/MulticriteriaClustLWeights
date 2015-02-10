@@ -16,6 +16,8 @@ struct Dados {
 
 	static int var_classe;
 
+	static bool isEntradaSimples;
+
 	Array<Cluster> prioriCluster;
 
 	Dados();

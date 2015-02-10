@@ -41,5 +41,9 @@ struct Tabela {
 
 	friend istream& operator>>(istream&, Tabela&);
 	friend ostream& operator<<(ostream&, const Tabela&);
+
+private:
+    void lerFormatoSimples(istream &in, Tabela& t);
+    void lerFormatoSodas(istream &in, Tabela& t);
 };
 #endif /* TABELA_H_ */
